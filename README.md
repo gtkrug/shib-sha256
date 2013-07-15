@@ -3,6 +3,11 @@ shib-sha256
 
 Simple crypto config for Shibboleth IDP that defaults SAML signing and digest algorithms to SHA-256.
 
+You may want to instead use the official Shibboleth cyrpto extension module:
+
+https://wiki.shibboleth.net/confluence/display/SHIB2/Changing+IdP+Signature+Method+Algorithm
+
+
 Install
 ============
 
