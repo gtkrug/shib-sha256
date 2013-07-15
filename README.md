@@ -3,7 +3,7 @@ shib-sha256
 
 Simple crypto config for Shibboleth IDP that defaults SAML signing and digest algorithms to SHA-256.
 
-INSTALLATION
+Install
 ============
 
 1)To add the extension code to the IdP:
@@ -15,4 +15,10 @@ INSTALLATION
 2) To activate the extension code: In the IdP's conf/internal.xml, add the following new bean declaration:
 
     <bean id="OpensamlSha256Config" class="net.gfipm.cryptoconfig.OpensamlSha256ConfigBean" depends-on="shibboleth.OpensamlConfig" /> 
+
+
+Build Instructions
+============
+
+If you want to build, the project is a standard maven project and should build with 'mvn clean install'.
 
